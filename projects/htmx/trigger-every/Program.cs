@@ -15,7 +15,7 @@ app.MapGet("/", () =>
             </head>
             <body>
                 <div hx-get="/htmx" hx-trigger="every 1s">..wait</div>
-                <script src="https://unpkg.com/htmx.org@2.0.0-beta1/dist/htmx.min.js"></script>
+                <script src="https://unpkg.com/htmx.org@2.0.0/dist/htmx.min.js"></script>
             </body>
         </html>
     """;

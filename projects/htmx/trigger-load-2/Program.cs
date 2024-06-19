@@ -8,7 +8,7 @@ app.MapGet("/", () =>
             <body>
                 <div hx-get="/htmx" hx-trigger="load delay:1s" hx-swap="outerHTML"></div>
 
-                <script src="https://unpkg.com/htmx.org@2.0.0-beta1/dist/htmx.min.js"></script>
+                <script src="https://unpkg.com/htmx.org@2.0.0/dist/htmx.min.js"></script>
             </body>
         </html>
     """;

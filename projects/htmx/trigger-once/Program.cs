@@ -19,7 +19,7 @@ app.MapGet("/", () =>
                     <li hx-get="/htmx/once" hx-trigger="click once">Click</li>
                     <li hx-get="/htmx/unlimited" hx-trigger="click">Click</li>
                 </ul>    
-                <script src="https://unpkg.com/htmx.org@2.0.0-beta1/dist/htmx.min.js"></script>
+                <script src="https://unpkg.com/htmx.org@2.0.0/dist/htmx.min.js"></script>
             </body>
         </html>
     """;
